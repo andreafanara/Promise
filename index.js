@@ -19,4 +19,5 @@ $(document).ready(function() {
         document.getElementsByTagName('body')[0].innerHTML = err;
     })
     alert("Sono dopo il catch");
+    console.log("Sono qui");
 });
